@@ -1,3 +1,10 @@
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>Car Repair</title>
+  <link rel="stylesheet" href="/css/app.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
 <body>
   <%= @inner_content %>
   <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
